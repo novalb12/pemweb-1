@@ -1,0 +1,27 @@
+body{
+	background-color: orange;
+}
+.search-box{
+	position: absolute;
+	top: 10%;
+	left: 80%;
+	transform: translate(-10%,-80% ); 
+	background-color: yellow;
+	height: 20px;
+	border-radius: 20px;
+	padding: 10px;
+
+}
+h1{
+	position: absolute;
+	top: 3%;
+	left: 40%;
+	transform: translate(-3%,-40%);
+}
+h3{
+	font-family:sans-serif; 
+	position: absolute;
+	top: 10%;
+	left: 7%;
+	transform: translate(-10%, -7%);
+}
