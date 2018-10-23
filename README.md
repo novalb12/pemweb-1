@@ -1,5 +1,5 @@
-WEB PENYEDIA LIRIK LAGU
-Judulnya VRD-Lyrics
+WEB PENYEDIA LAGU DAN LIRIK
+Judulnya VRD-MUSIC
 
 Tampilan home web
 1. Judul WEB
