@@ -1,5 +1,7 @@
 body{
-	background-color: orange;
+
+	background-image: url('gambar.jpg');
+	background-size: 1300px auto; 
 }
 .search-box{
 	position: absolute;
@@ -18,10 +20,52 @@ h1{
 	left: 40%;
 	transform: translate(-3%,-40%);
 }
-h3{
-	font-family:sans-serif; 
+.Login{
 	position: absolute;
-	top: 10%;
-	left: 7%;
-	transform: translate(-10%, -7%);
+	top: 48%;
+	right: 51%;
+	transform: translate(-48%,-51%);
+	background-color: yellow;
+	height: 40px;
+	border-radius: 20px;
+	padding: 10px;
+}
+.register{
+	position: absolute;
+	top: 48%;
+	left: 51%;
+	transform: translate(-48%,-51%);
+	background-color: yellow;
+	height: 40px;
+	border-radius: 20px;
+	padding: 10px;
+}
+.uname{
+	position: absolute;
+	top: 35%;
+	left: 46.5%;
+	transform: translate(-35%,-46.5%);
+	background-color: yellow;
+	border-radius: 20px;
+
+}
+.Password{
+	position: absolute;
+	top: 40%;
+	left: 46.5%;
+	transform: translate(-35%,-46.5%);
+	background-color: yellow;
+	border-radius: 20px;
+}
+
+.search-txt {
+	outline: none;
+	border: none;
+	background-color: yellow;
+}
+
+.btn-search {
+	background-color: yellow;
+	border: none;
+	outline: none;	
 }

@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>
-		MOCKUP
+		VRD MUSIC
 	</title>
 </head>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -10,20 +10,28 @@
 <body>
 	<table>
 		<tr>
-			<td><h1>VRD LYRICS</h1> </td>
-			<td> 
-				<div class="search-box">
-					<input class="search-txt" name="" placeholder="Search..">
-					<button type="submit"><i class="fa fa-search"> </i></button>
-					<a class="search-btn" href="#"> 
-				</div>
-			</td>
+			<td><h1>VRD MUSIC</h1> </td>		
+			<td> <div class="search-box">
+				<input class="search-txt" name="" placeholder="Search">
+				<button class="btn-search" type="submit" onclick="alert('Test')"><i class="fa fa-search"> </i></button>
+				<a class="search-btn" href="#"> 
+			</div></td>
 		</tr>
-		<tr> 
+			<tr>
+				<td><input type="submit" name="login" onclick="alert('Test')" class="Login" value="Login"></td>
+				<td> 
+					<input onclick="alert('Test')" type="submit" name="register" class="register" value="Register">
+				</td>
+			</tr>
 			<td>
-				<h3> CATEGORIES </h3>
+				<tr>
+					<form action="/action_page.php">
+						<input type="text" name="uname" class="uname" placeholder="Username"><br>
+						<input type="Password" name="Password" class="Password" placeholder="Password"><br>
+					</form>
+				</tr>
 			</td>
-		</tr>
 	</table>
+	<script src="script.js"></script>	
 </body>
 </html>
