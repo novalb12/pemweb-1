@@ -6,8 +6,8 @@
 	</title>
 </head>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="bootstrap.css">
-    <link rel="stylesheet" href="myStyle.css">
+    <link rel="stylesheet" href="..\css\bootstrap.css">
+    <link rel="stylesheet" href="..\css\myStyle.css">
     <link rel="stylesheet" href='https://use.fontawesome.com/releases/v5.4.1/css/all.css'>
 <body class="bg">
     <div class="container-fluid header">
@@ -30,9 +30,11 @@
                             </div>
                         </td>
                         <td>
-                            <button class="btn-login" style='font-size:32px' type="submit">
-                                <i class="fas fa-user-circle"></i>
-                            </button>
+                            <a href="loginpage.html">
+                                <button class="btn-login" style='font-size:32px' type="submit" formaction="loginpage.html">
+                                    <i class="fas fa-user-circle"></i>
+                                </button>
+                            </a>
                         </td>
                     </tr>
                 </table>
@@ -41,7 +43,7 @@
         
         <div class="navibar row">
             <div class="col-md-3 col-xs-12">
-                <li><a href="homepage.html">Beranda</a></li>
+                <li><a href="homepage.php">Beranda</a></li>
             </div>
             <div class="col-md-3 col-xs-12">
                 <li><a href="news.asp">Rilisan Baru</a></li>
@@ -57,19 +59,15 @@
         
     </div>
     <div class="container">
-        <div class="row form-login">
-            <div class="col-md-3 col-md-offset-4">
-                <form action="/action_page.php">
-                    <input type="text" name="uname" class="uname" placeholder="Username"><br>
-                    <input type="password" name="password" class="password" placeholder="Password"><br>
-                    <input type="submit" name="login" class="login" value="Login" onclick="alert('Test')">
-                </form>
-                <input type="submit" name="register" class="register" value="Register" onclick="alert('Test')" >
-            </div>
-        </div>
+        <table class="table2">
+            <tr><td><center><h5>TOP SONG</h5></center></td>
+                <td><center><h5>WHAT'S HOT?</h5></center></td></tr>
+            <tr><td><center><li><a href="lyricpage.php"> Aci - Cinta Seribu Malam </a></li></center></td>
+                <td><center><li><a href= "songlistpage.php">FOTO ACI</center></a></li> </td></tr>
+            <tr><td><center><li><a href=""> Rizal - Kenapa Begitu </a></li></center></td></tr>
+            <tr><td><center><li><a href=""> Rais - Kenapa Begini </a></li></center></td></tr>
+        </table>
     </div>
-
-    
 	<!-- <script src="script.js"></script>	 -->
 </body>
 </html>

@@ -6,8 +6,8 @@
 	</title>
 </head>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="bootstrap.css">
-    <link rel="stylesheet" href="myStyle.css">
+    <link rel="stylesheet" href="..\css\bootstrap.css">
+    <link rel="stylesheet" href="..\css\myStyle.css">
     <link rel="stylesheet" href='https://use.fontawesome.com/releases/v5.4.1/css/all.css'>
 <body class="bg">
     <div class="container-fluid header">
@@ -30,8 +30,8 @@
                             </div>
                         </td>
                         <td>
-                            <a href="loginpage.html">
-                                <button class="btn-login" style='font-size:32px' type="submit" formaction="loginpage.html">
+                            <a href="loginpage.php">
+                                <button class="btn-login" style='font-size:32px' type="submit" formaction="loginpage.php">
                                     <i class="fas fa-user-circle"></i>
                                 </button>
                             </a>
@@ -43,7 +43,7 @@
         
         <div class="navibar row">
             <div class="col-md-3 col-xs-12">
-                <li><a href="homepage.html">Beranda</a></li>
+                <li><a href="homepage.php">Beranda</a></li>
             </div>
             <div class="col-md-3 col-xs-12">
                 <li><a href="news.asp">Rilisan Baru</a></li>
@@ -59,15 +59,19 @@
         
     </div>
     <div class="container">
-        <table class="table2">
-            <tr><td><center><h5>TOP SONG</h5></center></td>
-                <td><center><h5>WHAT'S HOT?</h5></center></td></tr>
-            <tr><td><center><li><a href="lyricpage.html"> Aci - Cinta Seribu Malam </a></li></center></td>
-                <td><center><li><a href= "songlistpage.html">FOTO ACI</center></a></li> </td></tr>
-            <tr><td><center><li><a href=""> Rizal - Kenapa Begitu </a></li></center></td></tr>
-            <tr><td><center><li><a href=""> Rais - Kenapa Begini </a></li></center></td></tr>
-        </table>
+        <div class="row form-login">
+            <div class="col-md-3 col-md-offset-4">
+                <form action="homepage.php">
+                    <input type="text" name="uname" class="uname" placeholder="Username"><br>
+                    <input type="password" name="password" class="password" placeholder="Password"><br>
+                    <input type="submit" name="login" class="login" value="Login" onclick="alert('Test')">
+                </form>
+                <input type="submit" name="register" class="register" value="Register" onclick="alert('Test')" >
+            </div>
+        </div>
     </div>
+
+    
 	<!-- <script src="script.js"></script>	 -->
 </body>
 </html>

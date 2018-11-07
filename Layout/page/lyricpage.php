@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,8 +6,8 @@
 	</title>
 </head>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="bootstrap.css">
-	<link rel="stylesheet" href="myStyle.css">
+	<link rel="stylesheet" href="..\css\bootstrap.css">
+	<link rel="stylesheet" href="..\css\myStyle.css">
 	<link rel="stylesheet" href='https://use.fontawesome.com/releases/v5.4.1/css/all.css'>
 <body class="bg">
 	<div class="container-fluid header">
@@ -31,9 +30,11 @@
 							</div>
 						</td>
 						<td>
-							<button class="btn-login" style='font-size:32px' type="submit">
-								<i class="fas fa-user-circle"></i>
-							</button>
+							<a href="loginpage.php">
+                                <button class="btn-login" style='font-size:32px' type="submit" formaction="loginpage.html">
+                                    <i class="fas fa-user-circle"></i>
+                                </button>
+                            </a>
 						</td>
 					</tr>
 				</table>
@@ -42,7 +43,7 @@
 		
 		<div class="navibar row">
 			<div class="col-md-3 col-xs-12">
-				<li><a href="homepage.html">Beranda</a></li>
+				<li><a href="homepage.php">Beranda</a></li>
 			</div>
 			<div class="col-md-3 col-xs-12">
 				<li><a href="news.asp">Rilisan Baru</a></li>
@@ -58,23 +59,31 @@
 		
 	</div>
 	<div style="color: white">
-	<center>
-		<br>
-		<br><h3>ACI - CINTA SERIBU MALAM</h3>
-	
-	<br>
-	<br>Cinta Aci di seribu malam
-	<br>Tiap malam menunggu abang somay	
-	<br>Tapi abang somay tidak kunjung datang
-	<br>Bagaimana aku malam ini
-	<br>
-	<br>
-	<br>Oh abang somay
-	<br>Aku menunggumu datang
-	<br>Hingga seribu malam
-	<br>Akhirnya engkau datang
-		</center>
+		<div class="container" style="text-align:center; padding: 30px">
+			<?php
+				$servername = "localhost";
+				$username = "root";
+				$password = "";
+				$dbname = "vrd";
+				//Create Connection
+				$conn = new mysqli($servername,$username,$password,$dbname);
+				//Check Connection
+				if ($conn->connect_error){
+					die("Connection Failed: " . $conn->connect_error);
+				}
+				$result = mysqli_query($conn,"SELECT * FROM lagu");
+				
+				while($row = mysqli_fetch_array($result))
+				{
+					echo "<b>" . $row['nama_lagu'] . "</b><br>";
+					echo "" . $row['lirik_lagu'] . "";
+				}
+				
+				mysqli_close($conn);
+			?>
+		</div>
 	</div>
+	
 	<!-- <script src="script.js"></script>	 -->
 </body>
 </html>

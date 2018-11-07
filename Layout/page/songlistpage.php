@@ -6,8 +6,8 @@
 	</title>
 </head>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="bootstrap.css">
-	<link rel="stylesheet" href="myStyle.css">
+	<link rel="stylesheet" href="..\css\bootstrap.css">
+	<link rel="stylesheet" href="..\css\myStyle.css">
 	<link rel="stylesheet" href='https://use.fontawesome.com/releases/v5.4.1/css/all.css'>
 <body class="bg">
 	<div class="container-fluid header">
@@ -41,7 +41,7 @@
 		
 		<div class="navibar row">
 			<div class="col-md-3 col-xs-12">
-				<li><a href="homepage.html">Beranda</a></li>
+				<li><a href="homepage.php">Beranda</a></li>
 			</div>
 			<div class="col-md-3 col-xs-12">
 				<li><a href="news.asp">Rilisan Baru</a></li>
@@ -60,17 +60,17 @@
 		<center><h3><br> ACI </h3>
 			<br> Song List :
 			<br>
-			<br> Cinta Seribu Malam
-			<br> Aku dan Bang Somay
-			<br> Temanku Naufal
-			<br> Sahabatku Rais
-			<br> Kenapa Kamu Ngatain Aku
-			<br> Delphiku Cintaku
-			<br> Ci Yoi
-			<br> Cimahi Kenapa Apaan
-			<br> Diskusi Luci
-			<br> Tidur di Kamar Teman
-			<br> Makan Bareng
+			<br><li><a href="lyricpage.php">Cinta Seribu Malam </a></li>
+			<br><li><a href="">Aku dan Bang Somay</a></li>
+			<br><li><a href=""> Temanku Naufal</a></li>
+			<br><li><a href=""> Sahabatku Rais</a></li>
+			<br><li><a href=""> Kenapa Kamu Ngatain Aku</a></li>
+			<br><li><a href=""> Delphiku Cintaku</a></li>
+			<br><li><a href=""> Ci Yoi</a></li>
+			<br><li><a href=""> Cimahi Kenapa Apaan</a></li>
+			<br><li><a href=""> Diskusi Luci</a></li>
+			<br><li><a href=""> Tidur di Kamar Teman</a></li>
+			<br><li><a href=""> Makan Bareng</a></li>
 			
 		</center>
 	</div>
