@@ -3,13 +3,19 @@ body, html {
     height: 100%;
 }
 
+a { 
+    color: #111;
+    text-decoration:none;
+}
+
 .bg { 
-    background-image: url("..\..\images\background.jpg");
+    background-image: url('../images/background.jpg');
     height: 100%; 
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .header{
@@ -42,10 +48,6 @@ body, html {
 
 .navibar li a:hover {
     background-color: #111;
-}
-
-.container-fluid{
-    padding: 0;
 }
 
 /* search box */
