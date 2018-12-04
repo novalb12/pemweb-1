@@ -8,10 +8,17 @@ class Home extends CI_controller {
 	}
     
     public function index(){
+        if($this->session->userdata('status') != "login"){
+			$this->load->view('templates/header');
+            $this->load->view('homepage');
+            $this->load->view('templates/footer');
+		} else {
+            $this->load->view('templates/header-in');
+            $this->load->view('homepage');
+            $this->load->view('templates/footer');
+        }
         // get user input
-        $this->load->view('templates/header');
-        $this->load->view('homepage');
-        $this->load->view('templates/footer');
+        
     }
 }
 

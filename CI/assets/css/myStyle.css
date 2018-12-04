@@ -67,6 +67,11 @@ a {
     z-index: 1;
 }
 
+.dropdown-content+a{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 .dropdown:hover .dropdown-content {
     display: block;
 }
