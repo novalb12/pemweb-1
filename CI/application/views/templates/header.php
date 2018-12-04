@@ -16,18 +16,18 @@
 <body class="bg">
     <!-- Start of navbar -->
 <header>
-    <div class="container header" style="width: 100%;">
+    <div class="container header" >
         <div class="row">
             <!-- Judul Halaman -->
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <a href="<?php echo base_url() ?>Home" style="color: #000; text-decoration: none;">
-                    <h1 class="judul">
+                    <h1 class="judul text-center">
                         VRD MUSIC
                     </h1>
                 </a>
             </div>
             <!-- Search box dan identitas -->
-            <div class="col-md-3 col-md-offset-5">
+            <div class="col-md-3 col-md-offset-6">
                 <table>
                     <tr>
                         <td>
@@ -36,15 +36,19 @@
                                 <button class="btn-search" type="submit" onclick="alert('Test')">
                                     <i class="fa fa-search"> </i>
                                 </button>
-                                 <a class="search-btn" href="#"> 
                             </div>
                         </td>
-                        <td>
-                            <a href="<?php echo base_url() ?>Login">
-                                <button class="btn-login" style='font-size:32px' type="submit" formaction="loginpage.html">
+                        <td>  
+                            <div class="dropdown ddlogin">
+                                <span class="btn-login">
                                     <i class="fas fa-user-circle"></i>
-                                </button>
-                            </a>
+                                </span>
+                                <div class="dropdown-content">
+                                    <a href="<?php echo base_url() ?>Login">
+                                        Login
+                                    </a>
+                                </div>
+                            </div>
                         </td>
                     </tr>
                 </table>

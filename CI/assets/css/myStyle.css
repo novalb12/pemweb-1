@@ -20,6 +20,7 @@ a {
 
 .header{
     background-color: white;
+    width: 100%;
 }
 /* Navigation Bar */
 .judul{
@@ -50,6 +51,31 @@ a {
     background-color: #111;
 }
 
+/* Dropdown profil */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 50px ;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.ddlogin {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
 /* search box */
 .search-box{
     background-color: #d9d9d9;
@@ -57,22 +83,23 @@ a {
     padding: 10px;
     border-style : none;
     margin-top: 20px;
-   }
+}
 .search-txt{
     border-style : hidden;
     border-color : #d9d9d9;
     background-color : #d9d9d9;
-   }
+}
 .btn-search{
     background-color : #d9d9d9;
     border-style : none;
-   }
-   .btn-login{
+}
+.btn-login{
     background-color : white;
     border-style : none;
     color: #d9d9d9;
     margin-top: 20px;
-   }
+    font-size: 32px;
+}
 
 /* Login Page */
 .login{
