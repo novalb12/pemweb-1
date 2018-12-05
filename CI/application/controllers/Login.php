@@ -36,7 +36,10 @@ class Login extends CI_controller {
  
 		}else{
             echo "<script>alert('Username dan password salah!');</script>";
-            redirect(base_url("Login"));
+			// redirect(base_url("Login"));
+			$this->load->view('templates/header-login');
+			$this->load->view('loginpage');
+			$this->load->view('templates/footer');
 		}
 	}
  
