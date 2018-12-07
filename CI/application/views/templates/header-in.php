@@ -20,7 +20,7 @@
         <div class="row">
             <!-- Judul Halaman -->
             <div class="col-md-3">
-                <a href="<?php echo base_url() ?>Home" style="color: #000; text-decoration: none;">
+                <a href="<?php echo base_url() ?>Home" style="color: #666699; text-decoration: none;">
                     <h1 class="judul text-center">
                         VRD MUSIC
                     </h1>

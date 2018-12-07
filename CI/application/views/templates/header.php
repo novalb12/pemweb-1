@@ -20,7 +20,7 @@
         <div class="row">
             <!-- Judul Halaman -->
             <div class="col-md-3">
-                <a href="<?php echo base_url() ?>Home" style="color: #000; text-decoration: none;">
+                <a href="<?php echo base_url() ?>Home" style="color: #666699; text-decoration: none;">
                     <h1 class="judul text-center">
                         VRD MUSIC
                     </h1>
@@ -59,13 +59,13 @@
     <div>
         <div class="navibar row">
             <div class="col-md-3 col-xs-12">
-                <li><a href="<?php echo base_url() ?>Home">Beranda</a></li>
+                <li><a href="<?php echo base_url() ?>Home">Home</a></li>
             </div>
             <div class="col-md-3 col-xs-12">
-                <li><a href="<?php echo base_url() ?>Rilis">Rilisan Baru</a></li>
+                <li><a href="<?php echo base_url() ?>Rilis">New Release</a></li>
             </div>
             <div class="col-md-3 col-xs-12">   
-                <li><a href="<?php echo base_url() ?>Kategori">Kategori</a></li>
+                <li><a href="<?php echo base_url() ?>Kategori">Category</a></li>
             </div>
             <div class="col-md-3 col-xs-12">
                 <li><a href="<?php echo base_url() ?>Top10">Top 10</a></li>

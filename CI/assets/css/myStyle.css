@@ -9,7 +9,7 @@ a {
 }
 
 .bg { 
-    background-image: url('../images/background.jpg');
+    background-color: #33334d;
     height: 100%; 
     width: 100%;
     background-position: center;
@@ -32,7 +32,7 @@ a {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #666699;
 }
 
 .navibar li{
@@ -108,42 +108,57 @@ a {
 
 /* Login Page */
 .login{
-	background-color: #d9d9d9;
+	width: 149px;
 	height: 40px;
-	border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
+	border: 1px solid black;
+	background: #ffffff;
+	color: #000;
+	font-size: 16px;
+	border-radius: 22px;
+	cursor: pointer;
+	margin: 10px;
 }
 .register{
-
-	background-color: #d9d9d9;
+	width: 149px;
 	height: 40px;
-	border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
+	border: 1px solid black;
+	background: #ffffff;
+	color: black;
+	font-size: 16px;
+	border-radius: 22px;
+	cursor: pointer;
+	margin: 10px;
 }
 .uname{
-	background-color: #d9d9d9;
-    border-radius: 10px;
-    margin: 10px;
-
+	border: 1px solid white;
+	background: #fff;
+	color: #000;
+	font-size: 16px;
+	width: 196px;
+	height: 44px;
+	cursor: pointer;
+	margin: 10px;
+	border-bottom: 1px solid #000;
 }
 .password{
-	background-color: #d9d9d9;
-    border-radius: 10px;
-    margin: 10px;
+	border: 1px solid white;
+	background: #fff;
+	color: #000;
+	font-size: 16px;
+	width: 196px;
+	height: 44px;
+	cursor: pointer;
+	margin: 10px;
+	border-bottom: 1px solid #000;
 }
-
+.box-login{
+  margin-left: 485px;
+  background-color: white;
+  width: 300px;
+  height: 500px;
+  padding: 50px;
+  box-shadow: 2px;
+}
 .form-login{
-    margin: 100px;
     text-align: center;
 }
-
-/* homepage */
-.table2{
-	margin-left : 20px;
-	width : 500px;
-	list-style : none;
-}
-
-
