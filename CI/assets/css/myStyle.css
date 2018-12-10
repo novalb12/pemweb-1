@@ -152,7 +152,6 @@ a {
 	border-bottom: 1px solid #000;
 }
 .box-login{
-  margin-left: 485px;
   background-color: white;
   width: 300px;
   height: 500px;
@@ -161,4 +160,24 @@ a {
 }
 .form-login{
     text-align: center;
+}
+
+.box-daftar{
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    padding: 50px;
+    box-shadow: 2px; 
+}
+
+.btn-daftar{
+    border: 1px solid white;
+	background: #fff;
+	color: #000;
+	font-size: 16px;
+	width: 196px;
+	height: 44px;
+	cursor: pointer;
+	margin: 10px;
+	border-bottom: 1px solid #000;
 }

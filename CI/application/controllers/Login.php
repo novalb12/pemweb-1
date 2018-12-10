@@ -5,7 +5,7 @@ class Login extends CI_controller {
     function __construct(){
 		parent::__construct();
         $this->load->model('m_login');
-        
+        $this->load->model('m_data');
 	}
     
     public function index(){
@@ -46,6 +46,28 @@ class Login extends CI_controller {
 	function logout(){
 		$this->session->sess_destroy();
 		redirect(base_url('Home'));
+	}
+
+	function daftar(){
+		$this->load->view('templates/header-login');
+        $this->load->view('registerpage');
+        $this->load->view('templates/footer');
+	}
+ 
+	function tambah_aksi(){
+		$nama = $this->input->post('nama');
+		$tgl_lahir = $this->input->post('tgl_lahir');
+		$username = $this->input->post('username');
+		$password = $this->input->post('password');
+ 
+		$data = array(
+			'username' => $username,
+			'password' => md5($password),
+			'nama' => $nama,
+			'tgl_lahir' => $tgl_lahir
+			);
+		$this->m_data->input_data($data,'user');
+		redirect('login/index');
 	}
 }
 
