@@ -1,3 +1,4 @@
+<head>
 <style>
 /* Slideshow container */
 .slideshow-container {
@@ -78,6 +79,9 @@
 }
 
 </style>
+<head>
+
+<body>
 <br>
 <div class="slideshow-container">
 
@@ -127,8 +131,35 @@ function showSlides() {
             <td><center><h5 style='font-size:20px; color:#ffffff; margin-left:500px'>WHAT'S HOT?<br></h5></center></td></tr>
       </table>
 </div>
-
-<div class="row2">
+<table style="margin-left:860px">
+	<tr style=''>
+		<th></th>
+		<th><p style="color:white;fonte-size:40px; margin-left: 35px">Genre</p></th>
+		<th></th>
+	</tr>
+	<tr>
+		<th style='width:111px'><img src="<?php echo base_url() ?>assets/images/pop.jpg" style="width:111px; padding:10px"></th>
+		<th style='width:111px'><img src="<?php echo base_url() ?>assets/images/rnb.jpg" style="width:111px; padding:10px"></th>
+		<th><img src="<?php echo base_url() ?>assets/images/indie.jpg" style="width:111px; padding:10px"></th>
+	</tr>
+	<tr>
+		<th><a href="<?php echo base_url() ?>Kategori"><button class="button" style="width:270%" >Checkout Genre!</button><a/></th>
+	</tr>
+	<tr>
+		<th></th>
+		<th><p style="color:white;fonte-size:40px; margin-left: 30px; margin-top:10px; margin-bottom:-15x">Top List</p></th>
+		<th></th>
+	</tr>
+	<tr>
+		<th style='width:111px'><img src="<?php echo base_url() ?>assets/images/global.jpg" style="width:111px; padding:10px"></th>
+		<th><img src="<?php echo base_url() ?>assets/images/local.jpg" style="width:111px; padding:10px"></th>
+		<th></th>
+	</tr>
+	<tr>
+		<th><a href="<?php echo base_url() ?>Top10"><button class="button" style="width:270%">Checkout Top List!</button></a></th>
+	</tr>
+</table>
+<div class="row2" style="margin-top: -340px;">
 	<div class="column" style="margin-left:110px">
 	<div class="card">
 		<img src="<?php echo base_url() ?>assets/images/img5.jpg" style="width:100%">
@@ -155,8 +186,8 @@ function showSlides() {
 		<div class="card">
 			<img src="<?php echo base_url() ?>assets/images/img3.jpg" style="width:100%">
 			<div class="container2">
-				<p class="title">BLACKPINK</p>
-				<p style="color: #c5c5c5; margin-left:3px ;font-size:10px">DDU-DU DDU-DU</p>
+				<p class="title">BlackPink</p>
+				<p style="color: #c5c5c5; margin-left:3px ;font-size:10px">Ddu-Du Ddu-Du</p>
 				<p><button class="button">Lyric</button></p>
 				<p><button class="button">Video</button></p>
 			</div>
@@ -223,3 +254,5 @@ function showSlides() {
 	</div>
 </div>
 <br>
+
+<body>

@@ -33,7 +33,7 @@
                         <td>
                             <div class="search-box">
                                 <input class="search-txt" name="" placeholder="Search">
-                                <button class="btn-search" type="submit" onclick="alert('Test')">
+                                <button class="btn-search" type="submit" onclick="alert('Sorry, we cannot find what you search!')">
                                     <i class="fa fa-search"> </i>
                                 </button>
                             </div>
@@ -65,10 +65,10 @@
                 <li><a href="<?php echo base_url() ?>Rilis">New Release</a></li>
             </div>
             <div class="col-md-3 col-xs-12">   
-                <li><a href="<?php echo base_url() ?>Kategori">Category</a></li>
+                <li><a href="<?php echo base_url() ?>Kategori">Genre</a></li>
             </div>
             <div class="col-md-3 col-xs-12">
-                <li><a href="<?php echo base_url() ?>Top10">Top 10</a></li>
+                <li><a href="<?php echo base_url() ?>Top10">Top Charts</a></li>
             </div>    
         </div>
     </div>

@@ -68,10 +68,10 @@
                 <li><a href="<?php echo base_url() ?>Rilis">New Release</a></li>
             </div>
             <div class="col-md-3 col-xs-12">   
-                <li><a href="<?php echo base_url() ?>Kategori">Category</a></li>
+                <li><a href="<?php echo base_url() ?>Kategori">Genre</a></li>
             </div>
             <div class="col-md-3 col-xs-12">
-                <li><a href="<?php echo base_url() ?>Top10">Top 10</a></li>
+                <li><a href="<?php echo base_url() ?>Top10">Top Charts</a></li>
             </div>    
         </div>
     </div>

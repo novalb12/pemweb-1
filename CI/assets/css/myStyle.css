@@ -152,12 +152,12 @@ a {
 	border-bottom: 1px solid #000;
 }
 .box-login{
-  margin-left: 485px;
   background-color: white;
+  margin-top: -80px;
   width: 300px;
-  height: 500px;
-  padding: 50px;
-  box-shadow: 2px;
+  height: 280px;
+  border-style: solid;
+  border-color: black;
 }
 .form-login{
     text-align: center;
