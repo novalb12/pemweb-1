@@ -62,7 +62,7 @@
 	width:150px;
 }
 .row2{
-	width:700px;
+	width:800px;
 }
 .button {
   border: none;
@@ -160,99 +160,28 @@ function showSlides() {
 	</tr>
 </table>
 <div class="row2" style="margin-top: -340px;">
-	<div class="column" style="margin-left:110px">
-	<div class="card">
-		<img src="<?php echo base_url() ?>assets/images/img5.jpg" style="width:100%">
-		<div class="container2">
-			<p class="title">Calum Scott</p>
-			<p style="color: #c5c5c5; margin-left:3px;font-size:10px">You Are The Reason</p>
-			<p><button class="button">Lyric</button></p>
-			<p><button class="button">Video</button></p>
-		</div>
-    </div>
-	</div>
-	<div class="column">
-		<div class="card">
-			<img src="<?php echo base_url() ?>assets/images/img2.jpg" style="width:100%">
-			<div class="container2">
-				<p class="title">Bruno Mars</p>
-				<p style="color: #c5c5c5; margin-left:3px;font-size:10px">24K Magic</p>
-				<p><button class="button">Lyric</button></p>
-				<p><button class="button">Video</button></p>	
+	<div style="margin-left:110px">
+		<?php 
+			$no = $this->uri->segment('3') + 1;
+			foreach($lagu as $u){ 
+		?>
+		<div class="column" >
+			<div class="card">
+				<img src="<?php echo base_url() ?>assets/images/<?php echo $u->link_foto ?>" style="width:100%">
+				<div class="container2">
+					<p class="title"><?php echo $u->penyanyi ?></p>
+					<p style="color: #c5c5c5; margin-left:3px;font-size:10px"><?php echo $u->judul ?></p>
+					<a href=""><button class="button">Lyric</button></a>
+					<a href="<?php echo $u->link_video ?>"><button class="button">Video</button></a>
+				</div>
 			</div>
 		</div>
 	</div>
-	<div class="column">
-		<div class="card">
-			<img src="<?php echo base_url() ?>assets/images/img3.jpg" style="width:100%">
-			<div class="container2">
-				<p class="title">BlackPink</p>
-				<p style="color: #c5c5c5; margin-left:3px ;font-size:10px">Ddu-Du Ddu-Du</p>
-				<p><button class="button">Lyric</button></p>
-				<p><button class="button">Video</button></p>
-			</div>
-		</div>
-	</div>
-	<div class="column">
-		<div class="card">
-			<img src="<?php echo base_url() ?>assets/images/img4.jpg" style="width:100%">
-			<div class="container2">
-				<p class="title">Khalid</p>
-				<p style="color: #c5c5c5; margin-left:3px;font-size:10px">American Teen</p>
-				<p><button class="button">Lyric</button></p>
-				<p><button class="button">Video</button></p>
-			</div>
-		</div>
-	</div>
+		<?php } ?>
+		<br>
 </div>
-<br>
 
-<div class="row2">
-	<div class="column" style="margin-left:110px">
-		<div class="card">
-			<img src="<?php echo base_url() ?>assets/images/img6.jpg" style="width:100%">
-			<div class="container2">
-				<p class="title">Adhitia Sofyan</p>
-				<p style="color: #c5c5c5; margin-left:3px;font-size:10px">Sesuatu Di Jogja</p>
-				<p><button class="button">Lyric</button></p>
-				<p><button class="button">Video</button></p>
-			</div>
-		</div>
-	</div>
-	<div class="column">
-		<div class="card">
-			<img src="<?php echo base_url() ?>assets/images/img7.jpg" style="width:100%">
-			<div class="container2">
-				<p class="title">Alan Walker</p>
-				<p style="color: #c5c5c5; margin-left:3px;font-size:10px">Alone</p>
-				<p><button class="button">Lyric</button></p>
-				<p><button class="button">Video</button></p>	
-			</div>
-		</div>
-	</div>
-	<div class="column">
-		<div class="card">
-			<img src="<?php echo base_url() ?>assets/images/img8.jpg" style="width:100%">
-			<div class="container2">
-				<p class="title">Queen</p>
-				<p style="color: #c5c5c5; margin-left:3px ;font-size:10px">Love Of My Life</p>
-				<p><button class="button">Lyric</button></p>
-				<p><button class="button">Video</button></p>
-			</div>
-		</div>
-	</div>
-	<div class="column">
-		<div class="card">
-			<img src="<?php echo base_url() ?>assets/images/img9.jpg" style="width:100%">
-			<div class="container2">
-				<p class="title">Honne</p>
-				<p style="color:#c5c5c5; margin-left:3px;font-size:10px">Day 1</p>
-				<p><button class="button">Lyric</button></p>
-				<p><button class="button">Video</button></p>
-			</div>
-		</div>
-	</div>
-</div>
+</div >
 <br>
-
+<?php echo $this->pagination->create_links(); 	?>
 <body>

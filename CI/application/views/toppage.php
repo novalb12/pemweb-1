@@ -14,11 +14,10 @@
     padding: 20px;
     color: white;
 	max-width: 1100px;
-	margin-left: 75px;
+	margin-left: 10px;
 }
 .row3{
 	max-width:1280px;
-	margin-left:10px;
 	margin-bottom: 15px;
 }
 /* Clear floats after the columns */
@@ -51,6 +50,8 @@
 	padding: 10px;
 }
 </style>
+<div class="container">
+<div class="text-center">
 
 <div class="row3" style="padding-top:10px;">
 	<div class="column" onclick="openTab('b1');" style="background:#b3b3cc;">
@@ -367,7 +368,8 @@
 		</tr>
 	</table>
 </div>
-
+</div>
+</div>
 <script>
 function openTab(tabName) {
   var i, x;
