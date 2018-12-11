@@ -44,8 +44,8 @@
                                     <i class="fas fa-user-circle"></i>
                                 </span>
                                 <div class="dropdown-content">
-                                    <a href="<?php echo base_url() ?>Edit">
-                                        Edit
+                                    <a href="<?php echo base_url() ?>Daftar">
+                                        List
                                     </a>
                                     <a href="<?php echo base_url() ?>Login/logout">
                                         Logout
