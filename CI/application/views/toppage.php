@@ -75,8 +75,9 @@
 			<th><img src="<?php echo base_url() ?>assets/images/img21.jpg" style="width:150px; padding:10px"></th>
 			<th style="padding:30px ;font-size:40px">Marron 5</th>
 			<th style='padding:30px ;font-size:40px'>Girls Like You</th>
-			<th><button class="button">Lyric</button></th>
-			<th><button class="button">Video </button></th>
+			<th><button class="button">Lyric </button></th>
+			<th><a href="https://youtu.be/aJOTlE1K90k" class="button gmr-trailer-popup"><button class="button">Video</button></a></th>
+			
 		</tr>
 		<tr>
 			<th style="font-size: 35px;padding: 20px">2.</th>
@@ -84,7 +85,7 @@
 			<th style="padding:30px ;font-size:35px">Drake</th>
 			<th style='padding:30px ;font-size:35px'>Gods Plan</th>
 			<th><button class="button">Lyric</button></th>
-			<th><button class="button">Video </button></th>
+			<th><a href="https://youtu.be/xpVfcZ0ZcFM" class="button gmr-trailer-popup"><button class="button">Video</button></a></th>
 		</tr>
 		<tr>
 			<th style="font-size: 30px;padding: 20px">3.</th>
@@ -92,7 +93,7 @@
 			<th style="padding:30px ;font-size:30px">Fourtwnty</th>
 			<th style='padding:30px ;font-size:30px'>Zona Nyaman</th>
 			<th><button class="button">Lyric</button></th>
-			<th><button class="button">Video </button></th>
+			<th><a href="https://youtu.be/OnfYLBNvrPw" class="button gmr-trailer-popup"><button class="button">Video</button></a></th>
 		</tr>
 		<tr>
 			<th style="font-size: 25px;padding: 20px">4.</th>
@@ -100,7 +101,7 @@
 			<th style="padding:30px ;font-size:25px">Queen</th>
 			<th style='padding:30px ;font-size:25px'>Love Of My Life</th>
 			<th><button class="button">Lyric</button></th>
-			<th><button class="button">Video </button></th>
+			<th><a href="https://youtu.be/sUJkCXE4sAA" class="button gmr-trailer-popup"><button class="button">Video</button></a></th>
 		</tr>
 		<tr>
 			<th style="font-size: 25px;padding: 20px">5.</th>
@@ -108,7 +109,7 @@
 			<th style="padding:30px ;font-size:25px">BlackPink</th>
 			<th style='padding:30px ;font-size:25px'>Ddu-Du Ddu-Du</th>
 			<th><button class="button">Lyric</button></th>
-			<th><button class="button">Video </button></th>
+			<th><a href="https://youtu.be/IHNzOHi8sJs" class="button gmr-trailer-popup"><button class="button">Video</button></a></th>
 		</tr>
 		<tr>
 			<th style="font-size: 25px;padding: 20px">6.</th>
@@ -116,7 +117,7 @@
 			<th style="padding:30px ;font-size:25px">Honne</th>
 			<th style='padding:30px ;font-size:25px'>Day 1</th>
 			<th><button class="button">Lyric</button></th>
-			<th><button class="button">Video </button></th>
+			<th><a href="https://youtu.be/hWOB5QYcmh0" class="button gmr-trailer-popup"><button class="button">Video</button></a></th>
 		</tr>
 		<tr>
 			<th style="font-size: 25px;padding: 20px">7.</th>
@@ -124,7 +125,7 @@
 			<th style="padding:30px ;font-size:25px">Rendy Pandugo</th>
 			<th style='padding:30px ;font-size:25px'>I Dont Care</th>
 			<th><button class="button">Lyric</button></th>
-			<th><button class="button">Video </button></th>
+			<th><a href="https://youtu.be/O6plFAX3qRY" class="button gmr-trailer-popup"><button class="button">Video</button></a></th>
 		</tr>
 		<tr>
 			<th style="font-size: 25px;padding: 20px">8.</th>
@@ -132,7 +133,7 @@
 			<th style="padding:30px ;font-size:25px">Jennie</th>
 			<th style='padding:30px ;font-size:25px'>Solo</th>
 			<th><button class="button">Lyric</button></th>
-			<th><button class="button">Video </button></th>
+			<th><a href="https://youtu.be/b73BI9eUkjM" class="button gmr-trailer-popup"><button class="button">Video</button></a></th>
 		</tr>
 		<tr>
 			<th style="font-size: 25px;padding: 20px">9.</th>
@@ -140,7 +141,7 @@
 			<th style="padding:30px ;font-size:25px">Bob Marley</th>
 			<th style='padding:30px ;font-size:25px'>No Woman No Cry</th>
 			<th><button class="button">Lyric</button></th>
-			<th><button class="button">Video </button></th>
+			<th><a href="https://youtu.be/jGqrvn3q1oo" class="button gmr-trailer-popup"><button class="button">Video</button></a></th>
 		</tr>
 		<tr>
 			<th style="font-size: 25px;padding: 20px">10.</th>
@@ -148,7 +149,7 @@
 			<th style="padding:30px ;font-size:25px">Calum Scott</th>
 			<th style='padding:30px ;font-size:25px'>You Are The Reason</th>
 			<th><button class="button">Lyric</button></th>
-			<th><button class="button">Video </button></th>
+			<th><a href="https://youtu.be/ShZ978fBl6Y" class="button gmr-trailer-popup"><button class="button">Video</button></a></th>
 		</tr>
 		<tr>
 			<th style="font-size: 20px;padding: 20px">11.</th>
@@ -156,7 +157,7 @@
 			<th style="padding:30px ;font-size:20px">Madcon</th>
 			<th style='padding:30px ;font-size:20px'>Beggin</th>
 			<th><button class="button">Lyric</button></th>
-			<th><button class="button">Video </button></th>
+			<th><a href="https://youtu.be/zrFI2gJSuwA" class="button gmr-trailer-popup"><button class="button">Video</button></a></th>
 		</tr>
 		<tr>
 			<th style="font-size: 20px;padding: 20px">12.</th>
@@ -164,7 +165,7 @@
 			<th style="padding:30px ;font-size:20px">Barasuara</th>
 			<th style='padding:30px ;font-size:20px'>Mengunci Ingatan</th>
 			<th><button class="button">Lyric</button></th>
-			<th><button class="button">Video </button></th>
+			<th><a href="https://youtu.be/2sER_XNhmoQ" class="button gmr-trailer-popup"><button class="button">Video</button></a></th>
 		</tr>
 		<tr>
 			<th style="font-size: 20px;padding: 20px">13.</th>
@@ -172,7 +173,7 @@
 			<th style="padding:30px ;font-size:20px">Ras Muhamad</th>
 			<th style='padding:30px ;font-size:20px'>Lion Roar</th>
 			<th><button class="button">Lyric</button></th>
-			<th><button class="button">Video </button></th>
+			<th><a href="https://youtu.be/r8sra6sc2AM" class="button gmr-trailer-popup"><button class="button">Video</button></a></th>
 		</tr>
 		<tr>
 			<th style="font-size: 20px;padding: 20px">14.</th>
@@ -180,7 +181,7 @@
 			<th style="padding:30px ;font-size:20px">Adithia Sofyan</th>
 			<th style='padding:30px ;font-size:20px'>Sesuatu Di Jogja</th>
 			<th><button class="button">Lyric</button></th>
-			<th><button class="button">Video </button></th>
+			<th><a href="https://youtu.be/l2mI4vL95kU" class="button gmr-trailer-popup"><button class="button">Video</button></a></th>
 		</tr>
 		<tr>
 			<th style="font-size: 20px;padding: 20px">15.</th>
@@ -188,7 +189,7 @@
 			<th style="padding:30px ;font-size:20px">Pharrell Williams</th>
 			<th style='padding:30px ;font-size:20px'>Happy</th>
 			<th><button class="button">Lyric</button></th>
-			<th><button class="button">Video </button></th>
+			<th><a href="https://youtu.be/ZbZSe6N_BXs" class="button gmr-trailer-popup"><button class="button">Video</button></a></th>
 		</tr>
 	</table>
  </div>
@@ -204,7 +205,7 @@
 			<th style="padding:30px ;font-size:40px">Queen</th>
 			<th style='padding:30px ;font-size:40px'>Love Of My Life</th>
 			<th><button class="button">Lyric</button></th>
-			<th><button class="button">Video </button></th>
+			<th><a href="https://youtu.be/sUJkCXE4sAA" class="button gmr-trailer-popup"><button class="button">Video</button></a></th>
 		</tr>
 		<tr>
 			<th style="font-size: 35px;padding: 20px">2.</th>
@@ -212,7 +213,7 @@
 			<th style="padding:30px ;font-size:35px">Maroon 5</th>
 			<th style='padding:30px ;font-size:35px'>Girls Like You</th>
 			<th><button class="button">Lyric</button></th>
-			<th><button class="button">Video </button></th>
+			<th><a href="https://youtu.be/aJOTlE1K90k" class="button gmr-trailer-popup"><button class="button">Video</button></a></th>
 		</tr>
 		<tr>
 			<th style="font-size: 30px;padding: 20px">3.</th>
@@ -220,7 +221,7 @@
 			<th style="padding:30px ;font-size:30px">BlackPink</th>
 			<th style='padding:30px ;font-size:30px'>Ddu-Du Ddu-Du</th>
 			<th><button class="button">Lyric</button></th>
-			<th><button class="button">Video </button></th>
+			<th><a href="https://youtu.be/IHNzOHi8sJs" class="button gmr-trailer-popup"><button class="button">Video</button></a></th>
 		</tr>
 		<tr>
 			<th style="font-size: 25px;padding: 20px">4.</th>
@@ -228,7 +229,7 @@
 			<th style="padding:30px ;font-size:25px">Drake</th>
 			<th style='padding:30px ;font-size:25px'>Gods Plan</th>
 			<th><button class="button">Lyric</button></th>
-			<th><button class="button">Video </button></th>
+			<th><a href="https://youtu.be/xpVfcZ0ZcFM" class="button gmr-trailer-popup"><button class="button">Video</button></a></th>
 		</tr>
 		<tr>
 			<th style="font-size: 25px;padding: 20px">5.</th>
@@ -236,7 +237,7 @@
 			<th style="padding:30px ;font-size:25px">Bob Marley</th>
 			<th style='padding:30px ;font-size:25px'>No Woman No Cry</th>
 			<th><button class="button">Lyric</button></th>
-			<th><button class="button">Video </button></th>
+			<th><a href="https://youtu.be/jGqrvn3q1oo" class="button gmr-trailer-popup"><button class="button">Video</button></a></th>
 		</tr>
 		<tr>
 			<th style="font-size: 25px;padding: 20px">6.</th>
@@ -244,15 +245,15 @@
 			<th style="padding:30px ;font-size:25px">John Mayer</th>
 			<th style='padding:30px ;font-size:25px'>New Light</th>
 			<th><button class="button">Lyric</button></th>
-			<th><button class="button">Video </button></th>
+			<th><a href="https://youtu.be/mQ055hHdxbE" class="button gmr-trailer-popup"><button class="button">Video</button></a></th>
 		</tr>
 		<tr>
 			<th style="font-size: 25px;padding: 20px">7.</th>
-			<th><img src="<?php echo base_url() ?>assets/images/img18.png" style="width: 90px; padding:10px"></th>
-			<th style="padding:30px ;font-size:25px">Rendy Pandugo</th>
-			<th style='padding:30px ;font-size:25px'>I Dont Care</th>
+			<th><img src="<?php echo base_url() ?>assets/images/img9.png" style="width: 90px; padding:10px"></th>
+			<th style="padding:30px ;font-size:25px">Honne</th>
+			<th style='padding:30px ;font-size:25px'>Day 1</th>
 			<th><button class="button">Lyric</button></th>
-			<th><button class="button">Video </button></th>
+			<th><a href="https://youtu.be/hWOB5QYcmh0" class="button gmr-trailer-popup"><button class="button">Video</button></a></th>
 		</tr>
 		<tr>
 			<th style="font-size: 25px;padding: 20px">8.</th>
@@ -260,7 +261,7 @@
 			<th style="padding:30px ;font-size:25px">Khalid</th>
 			<th style='padding:30px ;font-size:25px'>American Teen</th>
 			<th><button class="button">Lyric</button></th>
-			<th><button class="button">Video </button></th>
+			<th><a href="https://youtu.be/0NChtZCDCsY" class="button gmr-trailer-popup"><button class="button">Video</button></a></th>
 		</tr>
 		<tr>
 			<th style="font-size: 25px;padding: 20px">9.</th>
@@ -268,7 +269,7 @@
 			<th style="padding:30px ;font-size:25px">Bruno Mars</th>
 			<th style='padding:30px ;font-size:25px'>24K Magic</th>
 			<th><button class="button">Lyric</button></th>
-			<th><button class="button">Video </button></th>
+			<th><a href="https://youtu.be/UqyT8IEBkvY" class="button gmr-trailer-popup"><button class="button">Video</button></a></th>
 		</tr>
 		<tr>
 			<th style="font-size: 25px;padding: 20px">10.</th>
@@ -276,7 +277,7 @@
 			<th style="padding:30px ;font-size:25px">Calum Scott</th>
 			<th style='padding:30px ;font-size:25px'>You Are The Reason</th>
 			<th><button class="button">Lyric</button></th>
-			<th><button class="button">Video </button></th>
+			<th><a href="https://youtu.be/ShZ978fBl6Y" class="button gmr-trailer-popup"><button class="button">Video</button></a></th>
 		</tr>
 	</table>
 </div>
@@ -292,7 +293,7 @@
 			<th style="padding:30px ;font-size:40px">Fourtwnty</th>
 			<th style='padding:30px ;font-size:40px'>Zona Nyaman</th>
 			<th><button class="button">Lyric</button></th>
-			<th><button class="button">Video </button></th>
+			<th><a href="https://youtu.be/OnfYLBNvrPw" class="button gmr-trailer-popup"><button class="button">Video</button></a></th>
 		</tr>
 		<tr>
 			<th style="font-size: 35px;padding: 20px">2.</th>
@@ -300,7 +301,7 @@
 			<th style="padding:30px ;font-size:35px">RAN</th>
 			<th style='padding:30px ;font-size:35px'>Dekat Di Hati</th>
 			<th><button class="button">Lyric</button></th>
-			<th><button class="button">Video </button></th>
+			<th><a href="https://youtu.be/07Dn-KDS-ag" class="button gmr-trailer-popup"><button class="button">Video</button></a></th>
 		</tr>
 		<tr>
 			<th style="font-size: 30px;padding: 20px">3.</th>
@@ -308,7 +309,7 @@
 			<th style="padding:30px ;font-size:30px">Rizky Febian</th>
 			<th style='padding:30px ;font-size:30px'>Menari</th>
 			<th><button class="button">Lyric</button></th>
-			<th><button class="button">Video </button></th>
+			<th><a href="https://youtu.be/m_pS_N88Z8Q" class="button gmr-trailer-popup"><button class="button">Video</button></a></th>
 		</tr>
 		<tr>
 			<th style="font-size: 25px;padding: 20px">4.</th>
@@ -316,7 +317,7 @@
 			<th style="padding:30px ;font-size:25px">Adithia Sofyan</th>
 			<th style='padding:30px ;font-size:25px'>Sesuatu Di Jogja</th>
 			<th><button class="button">Lyric</button></th>
-			<th><button class="button">Video </button></th>
+			<th><a href="https://youtu.be/l2mI4vL95kU" class="button gmr-trailer-popup"><button class="button">Video</button></a></th>
 		</tr>
 		<tr>
 			<th style="font-size: 25px;padding: 20px">5.</th>
@@ -324,7 +325,7 @@
 			<th style="padding:30px ;font-size:25px">GAC</th>
 			<th style='padding:30px ;font-size:25px'>Love Will Stay</th>
 			<th><button class="button">Lyric</button></th>
-			<th><button class="button">Video </button></th>
+			<th><a href="https://youtu.be/iEsxTk-Ye0I" class="button gmr-trailer-popup"><button class="button">Video</button></a></th>
 		</tr>
 		<tr>
 			<th style="font-size: 25px;padding: 20px">6.</th>
@@ -332,7 +333,7 @@
 			<th style="padding:30px ;font-size:25px">Barasuara</th>
 			<th style='padding:30px ;font-size:25px'>Mengunci Ingatan</th>
 			<th><button class="button">Lyric</button></th>
-			<th><button class="button">Video </button></th>
+			<th><a href="https://youtu.be/2sER_XNhmoQ" class="button gmr-trailer-popup"><button class="button">Video</button></a></th>>
 		</tr>
 		<tr>
 			<th style="font-size: 25px;padding: 20px">7.</th>
@@ -340,7 +341,7 @@
 			<th style="padding:30px ;font-size:25px">Rendy Pandugo</th>
 			<th style='padding:30px ;font-size:25px'>I Dont Care</th>
 			<th><button class="button">Lyric</button></th>
-			<th><button class="button">Video </button></th>
+			<th><a href="https://youtu.be/O6plFAX3qRY" class="button gmr-trailer-popup"><button class="button">Video</button></a></th>
 		</tr>
 		<tr>
 			<th style="font-size: 25px;padding: 20px">8.</th>
@@ -348,7 +349,7 @@
 			<th style="padding:30px ;font-size:25px">Tulus</th>
 			<th style='padding:30px ;font-size:25px'>Teman Hidup</th>
 			<th><button class="button">Lyric</button></th>
-			<th><button class="button">Video </button></th>
+			<th><a href="https://youtu.be/dt4Ueda_h6Y" class="button gmr-trailer-popup"><button class="button">Video</button></a></th>
 		</tr>
 		<tr>
 			<th style="font-size: 25px;padding: 20px">9.</th>
@@ -356,7 +357,7 @@
 			<th style="padding:30px ;font-size:25px">Banda Neira</th>
 			<th style='padding:30px ;font-size:25px'>Sampai Jadi Debu</th>
 			<th><button class="button">Lyric</button></th>
-			<th><button class="button">Video </button></th>
+			<th><a href="https://youtu.be/isPWOKVBwAM" class="button gmr-trailer-popup"><button class="button">Video</button></a></th>
 		</tr>
 		<tr>
 			<th style="font-size: 25px;padding: 20px">10.</th>
@@ -364,7 +365,7 @@
 			<th style="padding:30px ;font-size:25px">Ras Muhamad</th>
 			<th style='padding:30px ;font-size:25px'>Lion Roar</th>
 			<th><button class="button">Lyric</button></th>
-			<th><button class="button">Video </button></th>
+			<th><a href="https://youtu.be/r8sra6sc2AM" class="button gmr-trailer-popup"><button class="button">Video</button></a></th>
 		</tr>
 	</table>
 </div>

@@ -90,7 +90,7 @@
 			<p><img src="<?php echo base_url() ?>assets/images/img6.jpg" style="width:25%">
 			Adithia Sofyan - Sesuatu Di Jogja</p>
 			<p><button class="button" style='margin-left:130px'>Lyric</button></p>
-			<p><button class="button" style='margin-left:127px'>Video</button></p>
+			<a href="https://youtu.be/l2mI4vL95kU" class="button gmr-trailer-popup"><button class="button" style='margin-left:127px'>Video</button></a>
 		</div>
 	</div>
 	<div class="column local">
@@ -98,7 +98,7 @@
 			<p><img src="<?php echo base_url() ?>assets/images/img12.jpg" style="width:25%">
 			GAC - Love Will Stay</p>
 			<p><button class="button" style='margin-left:130px'>Lyric</button></p>
-			<p><button class="button" style='margin-left:127px'>Video</button></p>
+			<a href="https://youtu.be/iEsxTk-Ye0I" class="button gmr-trailer-popup"><button class="button" style='margin-left:127px'>Video</button></a>
 		</div>
 	</div>
 	<div class="column global">
@@ -106,7 +106,7 @@
 			<p><img src="<?php echo base_url() ?>assets/images/img3.jpg" style="width:25%">
 			BlackPink - Ddu-Du Ddu-Du</p>
 			<p><button class="button" style='margin-left:130px'>Lyric</button></p>
-			<p><button class="button" style='margin-left:127px'>Video</button></p>
+			<a href="https://youtu.be/IHNzOHi8sJs" class="button gmr-trailer-popup"><button class="button" style='margin-left:127px'>Video</button></a>
 		</div>
 	</div>
 
@@ -115,7 +115,7 @@
 			<p><img src="<?php echo base_url() ?>assets/images/img5.jpg" style="width:25%">
 			Calum Scott - You Are The Reason</p>
 			<p><button class="button" style='margin-left:130px'>Lyric</button></p>
-			<p><button class="button" style='margin-left:127px'>Video</button></p>
+			<a href="https://youtu.be/ShZ978fBl6Y" class="button gmr-trailer-popup"><button class="button" style='margin-left:127px'>Video</button></a>
 		</div>
 	</div>
 	<div class="column local">
@@ -123,7 +123,7 @@
 			<p><img src="<?php echo base_url() ?>assets/images/img10.jpg" style="width:25%">
 			Rizky Febian - Menari</p>
 			<p><button class="button" style='margin-left:130px'>Lyric</button></p>
-			<p><button class="button" style='margin-left:127px'>Video</button></p>
+			<a href="https://youtu.be/m_pS_N88Z8Q" class="button gmr-trailer-popup"><button class="button" style='margin-left:127px'>Video</button></a>
 		</div>
 	</div>
 	<div class="column global">
@@ -131,7 +131,7 @@
 			<p><img src="<?php echo base_url() ?>assets/images/img11.jpg" style="width:25%">
 			Jennie - Solo</p>
 			<p><button class="button" style='margin-left:130px'>Lyric</button></p>
-			<p><button class="button" style='margin-left:127px'>Video</button></p>
+			<a href="https://youtu.be/b73BI9eUkjM" class="button gmr-trailer-popup"><button class="button" style='margin-left:127px'>Video</button></a>
 		</div>
 	</div>
 </div>
