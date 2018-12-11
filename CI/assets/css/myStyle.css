@@ -182,3 +182,27 @@ a {
 	margin: 10px;
 	border-bottom: 1px solid #000;
 }
+/* page daftar user */
+.tabel-daftar{
+    margin:20px auto; 
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 1000px;
+    height: 150px;
+
+}
+
+.tabel-daftar a{
+    margin:20px auto; 
+    color: white;
+    
+}
+.tabel-daftar th{
+    margin: 20px auto;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
