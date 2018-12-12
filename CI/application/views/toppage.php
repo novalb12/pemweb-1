@@ -180,7 +180,7 @@
    <th><img src="<?php echo base_url() ?>assets/images/img6.jpg" style="width: 75px; padding:10px"></th>
    <th style="padding:30px ;font-size:20px">Adithia Sofyan</th>
    <th style='padding:30px ;font-size:20px'>Sesuatu Di Jogja</th>
-   <th><button class="button">Lyric</button></th>
+   <th><a href="<?php echo base_url() ?>Lirik/sdj"><button class="button">Lyric</button></a></th>
    <th><a href="https://youtu.be/l2mI4vL95kU" class="button gmr-trailer-popup"><button class="button">Video</button></a></th>
   </tr>
   <tr>
@@ -316,7 +316,7 @@
    <th><img src="<?php echo base_url() ?>assets/images/img6.jpg" style="width: 90px; padding:10px"></th>
    <th style="padding:30px ;font-size:25px">Adithia Sofyan</th>
    <th style='padding:30px ;font-size:25px'>Sesuatu Di Jogja</th>
-   <th><button class="button">Lyric</button></th>
+   <th><a href="<?php echo base_url() ?>Lirik/sdj"><button class="button">Lyric</button></a></th>
    <th><a href="https://youtu.be/l2mI4vL95kU" class="button gmr-trailer-popup"><button class="button">Video</button></a></th>
   </tr>
   <tr>

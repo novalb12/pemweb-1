@@ -94,7 +94,7 @@
   <div class="content">
    <p><img src="<?php echo base_url() ?>assets/images/img6.jpg" style="width:25%">
    Adithia Sofyan - Sesuatu Di Jogja</p>
-   <p><button class="button" style='margin-left:130px'>Lyric</button></p>
+   <a href="<?php echo base_url() ?>Lirik/sdj"><button class="button" style='margin-left:130px'>Lyric</button></a>
 
    <a href="https://youtu.be/l2mI4vL95kU" class="button gmr-trailer-popup"><button class="button" style='margin-left:127px'>Video</button></a>
 
