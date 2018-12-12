@@ -114,7 +114,7 @@
   <div class="content">
    <p><img src="<?php echo base_url() ?>assets/images/img5.jpg" style="width:25%">
    Calum Scott - You Are The Reason</p>
-   <p><button class="button" style='margin-left:130px'>Lyric</button></p>
+   <a href = "<?php echo base_url()?>Lirik/YATR"><button class="button" style='margin-left:130px'>Lyric</a></button></p>
    <a href="https://youtu.be/ShZ978fBl6Y" class="button gmr-trailer-popup"><button class="button" style='margin-left:127px'>Video</button></a>
   </div>
  </div>
