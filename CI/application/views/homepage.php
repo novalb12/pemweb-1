@@ -131,7 +131,7 @@ function showSlides() {
             <td><center><h5 style='font-size:20px; color:#ffffff; margin-left:500px'>WHAT'S HOT?<br></h5></center></td></tr>
       </table>
 </div>
-<table style="margin-left:860px">
+<table style="margin-left:860px; margin-bottom: 50px">
 	<tr style=''>
 		<th></th>
 		<th><p style="color:white;fonte-size:40px; margin-left: 35px">Genre</p></th>
@@ -171,7 +171,7 @@ function showSlides() {
 				<div class="container2">
 					<p class="title"><?php echo $u->penyanyi ?></p>
 					<p style="color: #c5c5c5; margin-left:3px;font-size:10px"><?php echo $u->judul ?></p>
-					<a href=""><button class="button">Lyric</button></a>
+					<?php echo anchor('Home/edit/'.$u->id_lagu,'<button class="button">Lirik</button></a>'); ?>
 					<a href="<?php echo $u->link_video ?>"><button class="button">Video</button></a>
 				</div>
 			</div>

@@ -30,6 +30,20 @@ class Home extends CI_controller {
         // get user input
         
     }
+
+    function edit($id){
+        $where = array('id_lagu' => $id);
+        $data['lagu'] = $this->m_data->edit_data($where,'lagu')->result();
+        if($this->session->userdata('status') != "login"){
+			$this->load->view('templates/header');
+            $this->load->view('lirikpage',$data);
+            $this->load->view('templates/footer');
+		} else {
+            $this->load->view('templates/header-in');
+            $this->load->view('lirikpage',$data);
+            $this->load->view('templates/footer');
+        }
+    }
 }
 
 ?>
