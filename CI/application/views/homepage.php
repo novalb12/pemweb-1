@@ -183,5 +183,7 @@ function showSlides() {
 
 </div >
 <br>
-<?php echo $this->pagination->create_links(); 	?>
+<a>
+	<?php echo $this->pagination->create_links(); 	?>
+</a>
 <body>
