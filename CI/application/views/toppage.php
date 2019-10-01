@@ -73,9 +73,9 @@
   <tr>
    <th style="font-size: 40px;padding: 20px">1.</th>
    <th><img src="<?php echo base_url() ?>assets/images/img21.jpg" style="width:150px; padding:10px"></th>
-   <th style="padding:30px ;font-size:40px">Marron 5</th>
+   <th style="padding:30px ;font-size:40px">Maroon 5</th>
    <th style='padding:30px ;font-size:40px'>Girls Like You</th>
-   <th><button class="button">Lyric </button></th>
+   <th><a href="<?php echo base_url() ?>Lirik/GLY"><button class="button">Lyric</button></a></th>
    <th><a href="https://youtu.be/aJOTlE1K90k" class="button gmr-trailer-popup"><button class="button">Video</button></a></th>
    
   </tr>
@@ -204,7 +204,7 @@
    <th><img src="<?php echo base_url() ?>assets/images/img8.jpg" style="width:150px; padding:10px"></th>
    <th style="padding:30px ;font-size:40px">Queen</th>
    <th style='padding:30px ;font-size:40px'>Love Of My Life</th>
-   <th><button class="button">Lyric</button></th>
+   <th><a href="<?php echo base_url() ?>Lirik/LOMY"><button class="button">Lyric</button></th>
    <th><a href="https://youtu.be/sUJkCXE4sAA" class="button gmr-trailer-popup"><button class="button">Video</button></a></th>
   </tr>
   <tr>
@@ -292,7 +292,7 @@
    <th><img src="<?php echo base_url() ?>assets/images/img20.jpg" style="width:150px; padding:10px"></th>
    <th style="padding:30px ;font-size:40px">Fourtwnty</th>
    <th style='padding:30px ;font-size:40px'>Zona Nyaman</th>
-   <th><button class="button">Lyric</button></th>
+   <th><a href="<?php echo base_url() ?>Lirik/zn"><button class="button">Lyric</button></a></th>
    <th><a href="https://youtu.be/OnfYLBNvrPw" class="button gmr-trailer-popup"><button class="button">Video</button></a></th>
   </tr>
   <tr>

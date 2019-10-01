@@ -1,5 +1,6 @@
 <head>
 <style>
+
 /* Center website */
 .main {
     max-width: 1000px;
@@ -261,7 +262,7 @@
   <div class="content">
    <p><img src="<?php echo base_url() ?>assets/images/img21.jpg" style="width:25%">
    Maroon 5 - Girls Like You</p>
-   <p><button class="button" style='margin-left:130px'>Lyric</button></p>
+   <a href="<?php echo base_url() ?>Lirik/GLY"><button class="button" style='margin-left:130px;'>Lyric</button></a>
    <a href="https://youtu.be/aJOTlE1K90k" class="button gmr-trailer-popup"><button class="button" style='margin-left:127px'>Video</button></a>
   </div>
  </div>
@@ -286,7 +287,7 @@
   <div class="content">
    <p><img src="<?php echo base_url() ?>assets/images/img24.jpg" style="width:25%">
    Raisa - Kali Kedua</p>
-   <p><button class="button" style='margin-left:130px'>Lyric</button></p>
+   <a href="<?php echo base_url() ?>Lirik/KK"><button class="button" style='margin-left:130px'>Lyric</button></a>
    <a href="https://youtu.be/SHj2kJzVi_g" class="button gmr-trailer-popup"><button class="button" style='margin-left:127px'>Video</button></a>
   </div>
  </div>
